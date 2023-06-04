@@ -1,61 +1,71 @@
+/* Styling for the body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     margin: 0;
     padding: 0;
-  }
-  
-  #todo-container {
+}
+
+/* Styling for the todo container */
+#todo-container {
     max-width: 400px;
     margin: 20px auto;
     background-color: #c3e8f1;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  #todo-input {
+}
+
+/* Styling for the todo input */
+#todo-input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 10px;
-  }
-  
-  #add-button {
+}
+
+/* Styling for the add button */
+#add-button {
     background-color: #236ceb;
     color: #ffffff;
     border: none;
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
-  }
-  
-  #add-button:hover {
+}
+
+/* Styling for the add button on hover */
+#add-button:hover {
     background-color: #097c36;
-  }
-  
-  #todo-list {
+}
+
+/* Styling for the todo list */
+#todo-list {
     list-style: none;
     padding: 0;
-  }
-  
-  li {
+}
+
+/* Styling for each list item */
+li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-  }
-  
-  li input[type="checkbox"] {
+}
+
+/* Styling for the checkbox within a list item */
+li input[type="checkbox"] {
     margin-right: 10px;
-  }
-  
-  li.completed span {
+}
+
+/* Styling for a completed list item */
+li.completed span {
     text-decoration: line-through;
     color: #888;
-  }
-  
-  .delete-button {
+}
+
+/* Styling for the delete button */
+.delete-button {
     background-color: #fdfd0a;
     color: #010000;
     border: none;
@@ -64,9 +74,9 @@ body {
     cursor: pointer;
     font-size: 12px;
     margin-left: auto;
-  }
-  
-  .delete-button:hover {
+}
+
+/* Styling for the delete button on hover */
+.delete-button:hover {
     background-color: #e53935;
-  }
-  
+}
